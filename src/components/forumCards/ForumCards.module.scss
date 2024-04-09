@@ -1,0 +1,33 @@
+.ForumCards {
+	// color: red;
+	margin-top: 20px;
+	.content {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		.contentCards {
+			display: flex;
+			justify-content: center;
+			.contentCard {
+				// gap: 6rem;
+				border: 3px solid red;
+				border-radius: 1rem;
+				width: 380px;
+				padding: 26px;
+				.contentGap {
+					.contentButton {
+						display: flex;
+						justify-content: center;
+						button {
+							background-color: brown;
+							width: 150px;
+							height: 40px;
+							border: none;
+							cursor: pointer;
+						}
+					}
+				}
+			}
+		}
+	}
+}

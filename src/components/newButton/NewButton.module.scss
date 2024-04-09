@@ -1,0 +1,27 @@
+.NewButton {
+	.content {
+		display: flex;
+		justify-content: center;
+		.contentButton {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: darkcyan;
+			width: 380px;
+			height: 8rem;
+			button {
+				width: 350px;
+				height: 90px;
+				border: 3px solid red;
+				border-radius: 8px;
+				background-color: rgba(9, 80, 80, 0.656);
+				color: red;
+				// font-weight: 600;
+				font-size: 36px;
+				text-decoration: none;
+				text-transform: uppercase;
+				letter-spacing: 4px;
+			}
+		}
+	}
+}
